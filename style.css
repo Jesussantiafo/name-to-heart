@@ -22,7 +22,7 @@ body {
     height: 100%;
     background: 
         radial-gradient(circle at 20% 50%, rgba(255, 0, 0, 0.03) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%,rgba(60, 0, 255, 0.959) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 0, 0, 0.03) 0%, transparent 50%),
         radial-gradient(circle at 40% 80%, rgba(255, 0, 0, 0.03) 0%, transparent 50%);
     z-index: 1;
     pointer-events: none;
@@ -102,7 +102,7 @@ body {
     font-weight: 700;
     margin-bottom: 10px;
     color: #ffffff;
-    text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 204, 255, 0.909);
     animation: glow 2s ease-in-out infinite alternate;
 }
 
