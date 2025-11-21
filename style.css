@@ -140,7 +140,7 @@ body {
 
 @keyframes glow {
     from { text-shadow: 0 0 10px rgba(0, 204, 255, 0.909); }
-    to { text-shadow: 0 0 20px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.3); }
+    to { text-shadow: 0 0 20px rgba(0, 204, 255, 0.909), 0 0 30px rgba(0, 204, 255, 0.909); }
 }
 
 .subtitle {
