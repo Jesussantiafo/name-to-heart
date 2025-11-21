@@ -40,7 +40,7 @@ body {
 
 .heart {
     position: absolute;
-    color: rgba(255, 0, 0, 0.4);
+    color: rgb(0, 255, 234)
     font-size: 12px;
     animation: float 8s linear infinite;
     pointer-events: none;
