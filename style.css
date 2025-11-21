@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Outfit', monospace;
-    background: #0486f13b;
+    background: #2a82c9b5;
     color: #33ec12d2;
     min-height: 100vh;
     overflow-x: hidden;
@@ -101,7 +101,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #ff0000;
+    color: #0000;
     text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
     animation: glow 2s ease-in-out infinite alternate;
 }
