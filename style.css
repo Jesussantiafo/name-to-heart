@@ -229,13 +229,13 @@ body {
 
 /* Buttons */
 .terminal-button {
-    background: rgba(0, 0, 0, 0.879);
-    border: 2px solid #6c6e6e49;
+    background: rgba(82, 79, 79, 0.422);
+    border: 2px solid #0aecec;
     padding: 15px 30px;
     font-family: 'Outfit', monospace;
     font-size: 16px;
     font-weight: 600;
-    color: #484745;
+    color: #7a756b;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -244,7 +244,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    box-shadow: 0 0 15px rgba(225, 5, 126, 0.3);
+    box-shadow: 0 0 15px rgba(3, 226, 241, 0.881);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
