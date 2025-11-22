@@ -285,9 +285,9 @@ body {
     opacity: 0.4;
     cursor: not-allowed;
     transform: none;
-    background: rgba(19, 226, 234, 0.74);
-    box-shadow: 0 0 5px rgba(19, 226, 234, 0.76);
-    color: rgba(19, 226, 234, 0.80;
+    background: rgba(204, 51, 51, 0.1);
+    box-shadow: 0 0 5px rgba(204, 51, 51, 0.1);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 /* Cursor */
