@@ -74,8 +74,8 @@ body {
     justify-content: center;
     padding: 20px;
     background: 
-        linear-gradient(45deg, transparent 49%,rgba(230, 29, 29, 0.936) 50%, transparent 51%),
-        linear-gradient(-45deg, transparent 49%, rgba(230, 29, 29, 0.936) 50%, transparent 51%);
+        linear-gradient(45deg, transparent 49%,rgba(8, 116, 223, 0.936) 50%, transparent 51%),
+        linear-gradient(-45deg, transparent 49%, rgba(8, 116, 223, 0.936)) 50%, transparent 51%);
     background-size: 20px 20px;
 }
 
