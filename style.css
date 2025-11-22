@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Outfit', monospace;
-    background: #2a82c9b5;
+    background: #2787d6b5;
     color: #44ff0bfb;
     min-height: 100vh;
     overflow-x: hidden;
@@ -40,7 +40,7 @@ body {
 
 .heart {
     position: absolute;
-    color: rgb(255, 251, 0)
+    color: rgba(255, 255, 0, 0.662)
     font-size: 12px;
     animation: float 8s linear infinite;
     pointer-events: none;
@@ -74,8 +74,8 @@ body {
     justify-content: center;
     padding: 20px;
     background: 
-        linear-gradient(45deg, transparent 49%,rgba(8, 116, 223, 0.936) 50%, transparent 51%),
-        linear-gradient(-45deg, transparent 49%, rgba(8, 116, 223, 0.936)) 50%, transparent 51%);
+        linear-gradient(45deg, transparent 49%, rgba(0, 204, 255, 0.02) 50%, transparent 51%),
+        linear-gradient(-45deg, transparent 49%, rgba(255, 0, 0, 0.02) 50%, transparent 51%);
     background-size: 20px 20px;
 }
 
@@ -139,14 +139,14 @@ body {
 }
 
 @keyframes glow {
-    from { text-shadow: 0 0 10px rgba(0, 204, 255, 0.909); }
-    to { text-shadow: 0 0 20px rgba(0, 204, 255, 0.909), 0 0 30px rgba(0, 204, 255, 0.909); }
+    from { text-shadow: 0 0 10px rgba(0, 204, 255, 0.02); }
+    to { text-shadow: 0 0 20px rgba(0, 204, 255, 0.02), 0 0 30px rgba(0, 204, 255, 0.02); }
 }
 
 .subtitle {
     font-size: 1.2rem;
     font-weight: 300;
-    color: #ffffff;
+    color: #07fc1b;
     opacity: 0.9;
 }
 
@@ -174,15 +174,15 @@ body {
 
 .terminal-input {
     background: transparent;
-    border: 2px solid #cc3333;
+    border: 2px solid #c00cf1;
     border-radius: 0;
     padding: 15px 20px;
     font-family: 'Outfit', monospace;
     font-size: 16px;
-    color: #ffffff;
+    color: #f307ac;
     outline: none;
     transition: all 0.3s ease;
-    box-shadow: 0 0 10px rgba(204, 51, 51, 0.2);
+    box-shadow: 0 0 10px rgba(54, 51, 204, 0.968);
 }
 
 .terminal-input:focus {
@@ -229,13 +229,13 @@ body {
 
 /* Buttons */
 .terminal-button {
-    background: rgba(204, 51, 51, 0.2);
-    border: 2px solid #cc3333;
+    background: rgba(15, 170, 218, 0.2);
+    border: 2px solid #22bfdb;
     padding: 15px 30px;
     font-family: 'Outfit', monospace;
     font-size: 16px;
     font-weight: 600;
-    color: #ffffff;
+    color: #a87e31;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -244,7 +244,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    box-shadow: 0 0 15px rgba(204, 51, 51, 0.3);
+    box-shadow: 0 0 15px rgba(225, 5, 126, 0.3);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -277,15 +277,15 @@ body {
 }
 
 .terminal-button.secondary {
-    border-color: rgba(0, 217, 255, 0.833);
-    color: rgba(0, 217, 255, 0.833);
+    border-color: rgba(255, 0, 0, 0.8);
+    color: rgba(255, 0, 0, 0.8);
 }
 
 .terminal-button:disabled {
     opacity: 0.4;
     cursor: not-allowed;
     transform: none;
-    background: rgba(204, 51, 51, 0.1);
+    background: rgba(19, 226, 234, 0.74);
     box-shadow: 0 0 5px rgba(204, 51, 51, 0.1);
     color: rgba(255, 255, 255, 0.4);
 }
@@ -424,7 +424,7 @@ body {
 }
 
 .lover-name {
-    color: #ffffff;
+    color: #cc3333;
     font-weight: bold;
 }
 
@@ -535,4 +535,3 @@ body {
         font-size: 1.5rem;
     }
 }
-
