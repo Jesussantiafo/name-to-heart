@@ -139,8 +139,8 @@ body {
 }
 
 @keyframes glow {
-    from { text-shadow: 0 0 10px rgba(208, 0, 255, 0.918); }
-    to { text-shadow: 0 0 20px rgba(255, 0, 217, 0.952), 0 0 30px rgba(251, 10, 195, 0.934); }
+    from { text-shadow: 0 0 10px rgba(0, 255, 255, 0.918); }
+    to { text-shadow: 0 0 20px rgba(0, 204, 255, 0.952), 0 0 30px rgba(10, 215, 251, 0.934); }
 }
 
 .subtitle {
@@ -229,13 +229,13 @@ body {
 
 /* Buttons */
 .terminal-button {
-    background: rgba(15, 170, 218, 0.2);
-    border: 2px solid #22bfdb;
+    background: rgba(0, 0, 0, 0.879);
+    border: 2px solid #6c6e6e49;
     padding: 15px 30px;
     font-family: 'Outfit', monospace;
     font-size: 16px;
     font-weight: 600;
-    color: #a87e31;
+    color: #484745;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -385,7 +385,7 @@ body {
     white-space: pre;
     font-size: 16px;
     font-family: 'Cascadia Mono', 'Courier New', 'Monaco', 'Menlo', monospace;
-    color: #a1971fa7;
+    color: #f5e10be9;
     line-height: 1.0;
     letter-spacing: 0px;
 }
