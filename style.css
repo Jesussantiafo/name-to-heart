@@ -250,14 +250,14 @@ body {
 }
 
 .terminal-button:hover {
-    background: rgba(204, 51, 51, 0.3);
-    box-shadow: 0 0 25px rgba(204, 51, 51, 0.5);
+    background: rgba(237, 217, 3, 0.959);
+    box-shadow: 0 0 25px rgba(183, 224, 2, 0.943);
     transform: translateY(-2px);
 }
 
 .terminal-button:active {
     transform: translateY(0);
-    box-shadow: 0 0 10px rgba(204, 51, 51, 0.4);
+    box-shadow: 0 0 10px rgba(214, 5, 246, 0.945);
 }
 
 @media (max-width: 768px) {
@@ -277,8 +277,8 @@ body {
 }
 
 .terminal-button.secondary {
-    border-color: rgba(255, 0, 0, 0.8);
-    color: rgba(255, 0, 0, 0.8);
+    border-color: rgba(121, 176, 199, 0.95);
+    color: rgba(0, 255, 234, 0.961);
 }
 
 .terminal-button:disabled {
