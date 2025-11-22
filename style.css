@@ -40,7 +40,7 @@ body {
 
 .heart {
     position: absolute;
-    color: rgba(255, 255, 0, 0.662)
+    color: rgba(51, 255, 0, 0.95)
     font-size: 12px;
     animation: float 8s linear infinite;
     pointer-events: none;
@@ -102,7 +102,7 @@ body {
     font-weight: 700;
     margin-bottom: 10px;
     color: #ffffff;
-    text-shadow: 0 0 10px rgba(0, 204, 255, 0.909);
+    text-shadow: 0 0 10px rgba(82, 82, 82, 0.909);
     animation: glow 2s ease-in-out infinite alternate;
 }
 
@@ -139,8 +139,8 @@ body {
 }
 
 @keyframes glow {
-    from { text-shadow: 0 0 10px rgba(0, 204, 255, 0.02); }
-    to { text-shadow: 0 0 20px rgba(0, 204, 255, 0.02), 0 0 30px rgba(0, 204, 255, 0.02); }
+    from { text-shadow: 0 0 10px rgba(208, 0, 255, 0.918); }
+    to { text-shadow: 0 0 20px rgba(255, 0, 217, 0.952), 0 0 30px rgba(251, 10, 195, 0.934); }
 }
 
 .subtitle {
