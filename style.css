@@ -146,7 +146,7 @@ body {
 .subtitle {
     font-size: 1.2rem;
     font-weight: 300;
-    color: #44ff0bfb;
+    color: #ffffff;
     opacity: 0.9;
 }
 
@@ -169,7 +169,7 @@ body {
 .input-label {
     display: block;
     margin-bottom: 0;
-    color: #cc3333;
+    color: #0df55b;
 }
 
 .terminal-input {
