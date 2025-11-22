@@ -277,8 +277,8 @@ body {
 }
 
 .terminal-button.secondary {
-    border-color: rgba(255, 0, 0, 0.6);
-    color: rgba(255, 0, 0, 0.8);
+    border-color: rgba(0, 217, 255, 0.833);
+    color: rgba(0, 217, 255, 0.833);
 }
 
 .terminal-button:disabled {
